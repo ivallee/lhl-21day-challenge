@@ -7,3 +7,7 @@ function countRows(){
 }
 
 console.log(countRows());
+
+module.exports = {
+  countRows
+}

@@ -7,3 +7,7 @@ function countColumns() {
 }
 
 console.log(countColumns());
+
+module.exports = {
+  countColumns
+}
