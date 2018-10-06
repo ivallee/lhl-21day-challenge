@@ -6,8 +6,6 @@ function countColumns() {
   return GRID[0].length;
 }
 
-console.log(countColumns());
-
 module.exports = {
   countColumns
 }

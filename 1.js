@@ -6,8 +6,6 @@ function countRows(){
   return GRID.length;
 }
 
-console.log(countRows());
-
 module.exports = {
   countRows
 }

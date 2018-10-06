@@ -4,4 +4,4 @@ function convertColumn(coord) {
   return coord[0].toLowerCase().charCodeAt() - 97;
 }
 
-console.log(convertColumns('C4'));
+module.exports = { convertColumn };
