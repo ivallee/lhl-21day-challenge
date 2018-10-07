@@ -7,5 +7,5 @@ function lightCell(coord) {
   return GRID[row][col];
 }
 
-console.log(lightCell('C2'));
+module.exports = { lightCell };
 
