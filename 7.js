@@ -5,4 +5,4 @@ function isRock(coord) {
   return lightCell(coord) === '^';
 }
 
-console.log(isRock('D1'));
+module.exports = { isRock };
