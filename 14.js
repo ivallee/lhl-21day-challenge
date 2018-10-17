@@ -16,3 +16,7 @@ function allShips() {
   });
   return output;
 }
+
+module.exports = {
+  allShips
+};

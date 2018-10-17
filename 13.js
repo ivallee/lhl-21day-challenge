@@ -32,5 +32,8 @@ function allCurrents() {
   });
   return output;
 }
-console.log(allRocks());
-console.log(allCurrents());
+
+module.exports = {
+  allRocks,
+  allCurrents
+}
