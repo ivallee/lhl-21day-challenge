@@ -9,4 +9,6 @@ function howDangerous(coord) {
   }
 }
 
-console.log(howDangerous('E3'))
+module.exports = {
+  howDangerous
+}
